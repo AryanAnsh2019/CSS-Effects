@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>My Cool CSS Effects</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Teko&dis	play=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<h1>My Coolest CSS Effects</h1>
+	<!--Parallax Buttons-->
+	<h2>Parallax Hover Buttons</h2>
+	<div id="parallax">
+		<button id="road">
+			<img src="bus.png" id="bus">
+		</button>
+		<button id="air">
+			<img src="plane.png" id="aeroplane">
+		</button>
+
+	</div>
+
+	<!--Hover Emojis-->
+	<h2 style="margin-top:100px">Hover Emojis</h2>
+	<div id="emoji">
+		<div id="sad_div">
+			<!-- <img src="tear.png" alt="" id="tear"> -->
+			<div id="tear"></div>
+			<img src="sad.png" alt="" id="sad">
+		</div>
+		<div id="heart_div">
+			<img src="heart.png" alt="" id="heart1">
+			<img src="heart.png" alt="" id="heart2">
+			<img src="heart.png" alt="" id="heart3">
+			<img src="in-love.png" alt="" id="love">
+		</div>
+		<div id="angry_div">
+			<div class="flame-wrapper">
+				<div class="flame red"></div>
+				<div class="flame orange"></div>
+				<div class="flame gold"></div>
+				<div class="flame white"></div>
+			</div>
+			<img src="angry.png" alt="" id="angry">
+		</div>
+		<div id="party_div">
+			<img src="confetti.png" id="conffeti">
+			<img src="party.png" alt="" id="party">
+		</div>
+		<div id="thumbsup_div">
+			<img src="thumbs-up.png" alt="" id="thumbsup">
+		</div>
+	</div>
+	<!--Toggle switch-->
+	<h2>Toggle Switches</h2>
+	<div id="toggles">
+		<label class="switch" id="cricket">
+			<input type="checkbox">
+			<div id="cricket_stuff">
+				<img src="cricket-bat.png" id="batsman">
+				<span class="slider round" id="ball"></span>
+			</div>
+		</label>
+		<label class="switch">
+			<input type="checkbox">
+			<div>
+				<span class="slider" id="gravity"></span>
+			</div>
+		</label>
+		<label class="switch">
+			<input type="checkbox">
+			<div>
+				<span class="slider" id="yes">
+					<div id="svgs">
+						<svg width="20" height="20" viewBox="0 0 207 176" fill="none"
+							xmlns="http://www.w3.org/2000/svg">
+							<path d="M0.572632 103.382L30.0399 62.8675L88.6952 105.529L59.228 146.044L0.572632 103.382Z"
+								fill="white" />
+							<path d="M166.762 0.234039L207 30.0782L99.1731 175.457L58.9354 145.613L166.762 0.234039Z"
+								fill="white" />
+						</svg>
+						<svg width="20" height="20" viewBox="0 0 92 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<rect x="0.539185" y="16.824" width="28" height="117"
+								transform="rotate(-35.7245 0.539185 16.824)" fill="white" />
+							<rect x="68.6288" width="28" height="117" transform="rotate(35.914 68.6288 0)"
+								fill="white" />
+						</svg>
+					</div>
+				</span>
+			</div>
+		</label>
+		<label class="switch" id="day_switch">
+			<input type="checkbox">
+			<div>
+				<span class="slider" id="day">
+					<div></div>
+					<div></div>
+				</span>
+			</div>
+		</label>
+	</div>
+	<!--Button Hover Effects-->
+	<h2>Button Hover Effects</h2>
+	<div id="main_buttons">
+		<button id="ripple">Ripple</button>
+		<button id="acid">
+			<span></span>
+			Acid Button
+		</button>
+
+		<div id="glitch_div">
+			<button class="glitch">
+				<span class="glitch_text">
+					Glitch
+				</span>
+				<span class="triangle"></span>
+			</button>
+			<button class="glitch">
+				<span class="glitch_text" id="glitch_text_effect">
+					Glitch
+				</span>
+				<span class="triangle"></span>
+			</button>
+		</div>
+		<div id="next_div">
+			<button id="next">
+				Next Generation
+				<hr>
+				<hr>
+			</button>
+		</div>
+		<button id="energy">
+			<span id="energy_text">Energy</span>
+		</button>
+		<button id="gradient_button">Gradient Button</button>
+		<button id="enlarge">
+			<div>
+				<span></span>
+				<i class="fas fa-home fa-2x"></i>
+				<span>Home</span>
+			</div>
+		</button>
+	</div>
+	<!--Star Rating-->
+	<h2>Star Rating</h2>
+	<div class="rating">
+		<input type="radio" name="rating" id="rating-5">
+		<label for="rating-5"></label>
+		<input type="radio" name="rating" id="rating-4">
+		<label for="rating-4"></label>
+		<input type="radio" name="rating" id="rating-3">
+		<label for="rating-3"></label>
+		<input type="radio" name="rating" id="rating-2">
+		<label for="rating-2"></label>
+		<input type="radio" name="rating" id="rating-1">
+		<label for="rating-1"></label>
+		<br>
+		<div id="star_emojis">
+			<img src="thinking.png" alt="">
+			<img src="angry.png" alt="">
+			<img src="sad.png" alt="">
+			<img src="smile.png" alt="">
+			<img src="in-love.png" alt="">
+			<img src="party.png" alt="">
+		</div>
+	</div>
+	<!--Tooltip Buttons-->
+	<h2>Tooltip Social Media Buttons</h2>
+	<div id="tooltip_buttons_div">
+		<div class="tooltip_button" id="facebook">
+			<button>
+				<i class="fab fa-facebook-f fa-lg"></i>
+			</button>
+			<div>
+				<span>Facebook</span>
+				<i class="fas fa-sort-down fa-2x"></i>
+			</div>
+		</div>
+		<div class="tooltip_button" id="insta">
+			<button>
+				<i class="fab fa-instagram fa-lg"></i>
+			</button>
+			<div>
+				<span>Instagram</span>
+				<i class="fas fa-sort-down fa-2x"></i>
+			</div>
+		</div>
+		<div class="tooltip_button" id="youtube">
+			<button>
+				<i class="fab fa-youtube fa-lg"></i>
+			</button>
+			<div>
+				<span>Youtube</span>
+				<i class="fas fa-sort-down fa-2x"></i>
+			</div>
+		</div>
+		<div class="tooltip_button" id="twitter">
+			<button>
+				<i class="fab fa-twitter fa-lg"></i>
+			</button>
+			<div>
+				<span>Twitter</span>
+				<i class="fas fa-sort-down fa-2x"></i>
+			</div>
+		</div>
+		<div class="tooltip_button" id="github">
+			<button>
+				<i class="fab fa-github fa-lg"></i>
+			</button>
+			<div>
+				<span>GitHub</span>
+				<i class="fas fa-sort-down fa-2x"></i>
+			</div>
+		</div>
+	</div>
+	<h2>Text Animation</h2>
+	<div id="text">
+		<svg width="400" height="35" viewBox="0 0 700 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<mask id="path-1-outside-1" maskUnits="userSpaceOnUse" x="-0.299988" y="0.899994" width="745" height="87"
+				fill="black">
+				<rect fill="white" x="-0.299988" y="0.899994" width="745" height="87" />
+				<path
+					d="M29.8 82.7C25.2 82.7 21.0667 81.9 17.4 80.3C13.8 78.6333 10.9667 76.3667 8.90001 73.5C6.83335 70.5667 5.76668 67.2 5.70001 63.4H15.4C15.7333 66.6667 17.0667 69.4333 19.4 71.7C21.8 73.9 25.2667 75 29.8 75C34.1333 75 37.5333 73.9333 40 71.8C42.5333 69.6 43.8 66.8 43.8 63.4C43.8 60.7333 43.0667 58.5667 41.6 56.9C40.1333 55.2333 38.3 53.9667 36.1 53.1C33.9 52.2333 30.9333 51.3 27.2 50.3C22.6 49.1 18.9 47.9 16.1 46.7C13.3667 45.5 11 43.6333 9.00001 41.1C7.06668 38.5 6.10001 35.0333 6.10001 30.7C6.10001 26.9 7.06668 23.5333 9.00001 20.6C10.9333 17.6667 13.6333 15.4 17.1 13.8C20.6333 12.2 24.6667 11.4 29.2 11.4C35.7333 11.4 41.0667 13.0333 45.2 16.3C49.4 19.5667 51.7667 23.9 52.3 29.3H42.3C41.9667 26.6333 40.5667 24.3 38.1 22.3C35.6333 20.2333 32.3667 19.2 28.3 19.2C24.5 19.2 21.4 20.2 19 22.2C16.6 24.1333 15.4 26.8667 15.4 30.4C15.4 32.9333 16.1 35 17.5 36.6C18.9667 38.2 20.7333 39.4333 22.8 40.3C24.9333 41.1 27.9 42.0333 31.7 43.1C36.3 44.3667 40 45.6333 42.8 46.9C45.6 48.1 48 50 50 52.6C52 55.1333 53 58.6 53 63C53 66.4 52.1 69.6 50.3 72.6C48.5 75.6 45.8333 78.0333 42.3 79.9C38.7667 81.7667 34.6 82.7 29.8 82.7Z" />
+				<path d="M123.991 12.3L97.6914 82H87.1914L60.8914 12.3H70.5914L92.4914 72.4L114.391 12.3H123.991Z" />
+				<path
+					d="M186.77 32.5C184.836 28.4333 182.036 25.3 178.37 23.1C174.703 20.8333 170.436 19.7 165.57 19.7C160.703 19.7 156.303 20.8333 152.37 23.1C148.503 25.3 145.436 28.5 143.17 32.7C140.97 36.8333 139.87 41.6333 139.87 47.1C139.87 52.5667 140.97 57.3667 143.17 61.5C145.436 65.6333 148.503 68.8333 152.37 71.1C156.303 73.3 160.703 74.4 165.57 74.4C172.37 74.4 177.97 72.3667 182.37 68.3C186.77 64.2333 189.336 58.7333 190.07 51.8H162.27V44.4H199.77V51.4C199.236 57.1333 197.436 62.4 194.37 67.2C191.303 71.9333 187.27 75.7 182.27 78.5C177.27 81.2333 171.703 82.6 165.57 82.6C159.103 82.6 153.203 81.1 147.87 78.1C142.536 75.0333 138.303 70.8 135.17 65.4C132.103 60 130.57 53.9 130.57 47.1C130.57 40.3 132.103 34.2 135.17 28.8C138.303 23.3333 142.536 19.1 147.87 16.1C153.203 13.0333 159.103 11.5 165.57 11.5C172.97 11.5 179.503 13.3333 185.17 17C190.903 20.6667 195.07 25.8333 197.67 32.5H186.77Z" />
+				<path
+					d="M279.662 66.5H249.262L243.662 82H234.062L259.262 12.7H269.762L294.862 82H285.262L279.662 66.5ZM277.062 59.1L264.462 23.9L251.862 59.1H277.062Z" />
+				<path
+					d="M332.545 26.2C339.211 26.2 344.611 28.2333 348.745 32.3C352.878 36.3 354.945 42.1 354.945 49.7V82H345.945V51C345.945 45.5333 344.578 41.3667 341.845 38.5C339.111 35.5667 335.378 34.1 330.645 34.1C325.845 34.1 322.011 35.6 319.145 38.6C316.345 41.6 314.945 45.9667 314.945 51.7V82H305.845V27.2H314.945V35C316.745 32.2 319.178 30.0333 322.245 28.5C325.378 26.9667 328.811 26.2 332.545 26.2Z" />
+				<path
+					d="M374.509 18.3C372.776 18.3 371.309 17.7 370.109 16.5C368.909 15.3 368.309 13.8333 368.309 12.1C368.309 10.3667 368.909 8.89999 370.109 7.69999C371.309 6.49999 372.776 5.89999 374.509 5.89999C376.176 5.89999 377.576 6.49999 378.709 7.69999C379.909 8.89999 380.509 10.3667 380.509 12.1C380.509 13.8333 379.909 15.3 378.709 16.5C377.576 17.7 376.176 18.3 374.509 18.3ZM378.909 27.2V82H369.809V27.2H378.909Z" />
+				<path
+					d="M460.319 26.2C464.585 26.2 468.385 27.1 471.719 28.9C475.052 30.6333 477.685 33.2667 479.619 36.8C481.552 40.3333 482.519 44.6333 482.519 49.7V82H473.519V51C473.519 45.5333 472.152 41.3667 469.419 38.5C466.752 35.5667 463.119 34.1 458.519 34.1C453.785 34.1 450.019 35.6333 447.219 38.7C444.419 41.7 443.019 46.0667 443.019 51.8V82H434.019V51C434.019 45.5333 432.652 41.3667 429.919 38.5C427.252 35.5667 423.619 34.1 419.019 34.1C414.285 34.1 410.519 35.6333 407.719 38.7C404.919 41.7 403.519 46.0667 403.519 51.8V82H394.419V27.2H403.519V35.1C405.319 32.2333 407.719 30.0333 410.719 28.5C413.785 26.9667 417.152 26.2 420.819 26.2C425.419 26.2 429.485 27.2333 433.019 29.3C436.552 31.3667 439.185 34.4 440.919 38.4C442.452 34.5333 444.985 31.5333 448.519 29.4C452.052 27.2667 455.985 26.2 460.319 26.2Z" />
+				<path
+					d="M494.046 54.4C494.046 48.8 495.179 43.9 497.446 39.7C499.713 35.4333 502.813 32.1333 506.746 29.8C510.746 27.4667 515.179 26.3 520.046 26.3C524.846 26.3 529.013 27.3333 532.546 29.4C536.079 31.4667 538.713 34.0667 540.446 37.2V27.2H549.646V82H540.446V71.8C538.646 75 535.946 77.6667 532.346 79.8C528.813 81.8667 524.679 82.9 519.946 82.9C515.079 82.9 510.679 81.7 506.746 79.3C502.813 76.9 499.713 73.5333 497.446 69.2C495.179 64.8667 494.046 59.9333 494.046 54.4ZM540.446 54.5C540.446 50.3667 539.613 46.7667 537.946 43.7C536.279 40.6333 534.013 38.3 531.146 36.7C528.346 35.0333 525.246 34.2 521.846 34.2C518.446 34.2 515.346 35 512.546 36.6C509.746 38.2 507.513 40.5333 505.846 43.6C504.179 46.6667 503.346 50.2667 503.346 54.4C503.346 58.6 504.179 62.2667 505.846 65.4C507.513 68.4667 509.746 70.8333 512.546 72.5C515.346 74.1 518.446 74.9 521.846 74.9C525.246 74.9 528.346 74.1 531.146 72.5C534.013 70.8333 536.279 68.4667 537.946 65.4C539.613 62.2667 540.446 58.6333 540.446 54.5Z" />
+				<path
+					d="M576.124 34.7V67C576.124 69.6667 576.691 71.5667 577.824 72.7C578.958 73.7667 580.924 74.3 583.724 74.3H590.424V82H582.224C577.158 82 573.358 80.8333 570.824 78.5C568.291 76.1667 567.024 72.3333 567.024 67V34.7H559.924V27.2H567.024V13.4H576.124V27.2H590.424V34.7H576.124Z" />
+				<path
+					d="M606.15 18.3C604.417 18.3 602.95 17.7 601.75 16.5C600.55 15.3 599.95 13.8333 599.95 12.1C599.95 10.3667 600.55 8.89999 601.75 7.69999C602.95 6.49999 604.417 5.89999 606.15 5.89999C607.817 5.89999 609.217 6.49999 610.35 7.69999C611.55 8.89999 612.15 10.3667 612.15 12.1C612.15 13.8333 611.55 15.3 610.35 16.5C609.217 17.7 607.817 18.3 606.15 18.3ZM610.55 27.2V82H601.45V27.2H610.55Z" />
+				<path
+					d="M649.959 82.9C644.826 82.9 640.159 81.7333 635.959 79.4C631.826 77.0667 628.559 73.7667 626.159 69.5C623.826 65.1667 622.659 60.1667 622.659 54.5C622.659 48.9 623.859 43.9667 626.259 39.7C628.726 35.3667 632.059 32.0667 636.259 29.8C640.459 27.4667 645.159 26.3 650.359 26.3C655.559 26.3 660.259 27.4667 664.459 29.8C668.659 32.0667 671.959 35.3333 674.359 39.6C676.826 43.8667 678.059 48.8333 678.059 54.5C678.059 60.1667 676.793 65.1667 674.259 69.5C671.793 73.7667 668.426 77.0667 664.159 79.4C659.893 81.7333 655.159 82.9 649.959 82.9ZM649.959 74.9C653.226 74.9 656.293 74.1333 659.159 72.6C662.026 71.0667 664.326 68.7667 666.059 65.7C667.859 62.6333 668.759 58.9 668.759 54.5C668.759 50.1 667.893 46.3667 666.159 43.3C664.426 40.2333 662.159 37.9667 659.359 36.5C656.559 34.9667 653.526 34.2 650.259 34.2C646.926 34.2 643.859 34.9667 641.059 36.5C638.326 37.9667 636.126 40.2333 634.459 43.3C632.793 46.3667 631.959 50.1 631.959 54.5C631.959 58.9667 632.759 62.7333 634.359 65.8C636.026 68.8667 638.226 71.1667 640.959 72.7C643.693 74.1667 646.693 74.9 649.959 74.9Z" />
+				<path
+					d="M716.724 26.2C723.391 26.2 728.791 28.2333 732.924 32.3C737.058 36.3 739.124 42.1 739.124 49.7V82H730.124V51C730.124 45.5333 728.758 41.3667 726.024 38.5C723.291 35.5667 719.558 34.1 714.824 34.1C710.024 34.1 706.191 35.6 703.324 38.6C700.524 41.6 699.124 45.9667 699.124 51.7V82H690.024V27.2H699.124V35C700.924 32.2 703.358 30.0333 706.424 28.5C709.558 26.9667 712.991 26.2 716.724 26.2Z" />
+			</mask>
+			<path
+				d="M29.8 82.7C25.2 82.7 21.0667 81.9 17.4 80.3C13.8 78.6333 10.9667 76.3667 8.90001 73.5C6.83335 70.5667 5.76668 67.2 5.70001 63.4H15.4C15.7333 66.6667 17.0667 69.4333 19.4 71.7C21.8 73.9 25.2667 75 29.8 75C34.1333 75 37.5333 73.9333 40 71.8C42.5333 69.6 43.8 66.8 43.8 63.4C43.8 60.7333 43.0667 58.5667 41.6 56.9C40.1333 55.2333 38.3 53.9667 36.1 53.1C33.9 52.2333 30.9333 51.3 27.2 50.3C22.6 49.1 18.9 47.9 16.1 46.7C13.3667 45.5 11 43.6333 9.00001 41.1C7.06668 38.5 6.10001 35.0333 6.10001 30.7C6.10001 26.9 7.06668 23.5333 9.00001 20.6C10.9333 17.6667 13.6333 15.4 17.1 13.8C20.6333 12.2 24.6667 11.4 29.2 11.4C35.7333 11.4 41.0667 13.0333 45.2 16.3C49.4 19.5667 51.7667 23.9 52.3 29.3H42.3C41.9667 26.6333 40.5667 24.3 38.1 22.3C35.6333 20.2333 32.3667 19.2 28.3 19.2C24.5 19.2 21.4 20.2 19 22.2C16.6 24.1333 15.4 26.8667 15.4 30.4C15.4 32.9333 16.1 35 17.5 36.6C18.9667 38.2 20.7333 39.4333 22.8 40.3C24.9333 41.1 27.9 42.0333 31.7 43.1C36.3 44.3667 40 45.6333 42.8 46.9C45.6 48.1 48 50 50 52.6C52 55.1333 53 58.6 53 63C53 66.4 52.1 69.6 50.3 72.6C48.5 75.6 45.8333 78.0333 42.3 79.9C38.7667 81.7667 34.6 82.7 29.8 82.7Z"
+				fill="white" />
+			<path d="M123.991 12.3L97.6914 82H87.1914L60.8914 12.3H70.5914L92.4914 72.4L114.391 12.3H123.991Z"
+				fill="white" />
+			<path
+				d="M186.77 32.5C184.836 28.4333 182.036 25.3 178.37 23.1C174.703 20.8333 170.436 19.7 165.57 19.7C160.703 19.7 156.303 20.8333 152.37 23.1C148.503 25.3 145.436 28.5 143.17 32.7C140.97 36.8333 139.87 41.6333 139.87 47.1C139.87 52.5667 140.97 57.3667 143.17 61.5C145.436 65.6333 148.503 68.8333 152.37 71.1C156.303 73.3 160.703 74.4 165.57 74.4C172.37 74.4 177.97 72.3667 182.37 68.3C186.77 64.2333 189.336 58.7333 190.07 51.8H162.27V44.4H199.77V51.4C199.236 57.1333 197.436 62.4 194.37 67.2C191.303 71.9333 187.27 75.7 182.27 78.5C177.27 81.2333 171.703 82.6 165.57 82.6C159.103 82.6 153.203 81.1 147.87 78.1C142.536 75.0333 138.303 70.8 135.17 65.4C132.103 60 130.57 53.9 130.57 47.1C130.57 40.3 132.103 34.2 135.17 28.8C138.303 23.3333 142.536 19.1 147.87 16.1C153.203 13.0333 159.103 11.5 165.57 11.5C172.97 11.5 179.503 13.3333 185.17 17C190.903 20.6667 195.07 25.8333 197.67 32.5H186.77Z"
+				fill="white" />
+			<path
+				d="M279.662 66.5H249.262L243.662 82H234.062L259.262 12.7H269.762L294.862 82H285.262L279.662 66.5ZM277.062 59.1L264.462 23.9L251.862 59.1H277.062Z"
+				fill="white" />
+			<path
+				d="M332.545 26.2C339.211 26.2 344.611 28.2333 348.745 32.3C352.878 36.3 354.945 42.1 354.945 49.7V82H345.945V51C345.945 45.5333 344.578 41.3667 341.845 38.5C339.111 35.5667 335.378 34.1 330.645 34.1C325.845 34.1 322.011 35.6 319.145 38.6C316.345 41.6 314.945 45.9667 314.945 51.7V82H305.845V27.2H314.945V35C316.745 32.2 319.178 30.0333 322.245 28.5C325.378 26.9667 328.811 26.2 332.545 26.2Z"
+				fill="white" />
+			<path
+				d="M374.509 18.3C372.776 18.3 371.309 17.7 370.109 16.5C368.909 15.3 368.309 13.8333 368.309 12.1C368.309 10.3667 368.909 8.89999 370.109 7.69999C371.309 6.49999 372.776 5.89999 374.509 5.89999C376.176 5.89999 377.576 6.49999 378.709 7.69999C379.909 8.89999 380.509 10.3667 380.509 12.1C380.509 13.8333 379.909 15.3 378.709 16.5C377.576 17.7 376.176 18.3 374.509 18.3ZM378.909 27.2V82H369.809V27.2H378.909Z"
+				fill="white" />
+			<path
+				d="M460.319 26.2C464.585 26.2 468.385 27.1 471.719 28.9C475.052 30.6333 477.685 33.2667 479.619 36.8C481.552 40.3333 482.519 44.6333 482.519 49.7V82H473.519V51C473.519 45.5333 472.152 41.3667 469.419 38.5C466.752 35.5667 463.119 34.1 458.519 34.1C453.785 34.1 450.019 35.6333 447.219 38.7C444.419 41.7 443.019 46.0667 443.019 51.8V82H434.019V51C434.019 45.5333 432.652 41.3667 429.919 38.5C427.252 35.5667 423.619 34.1 419.019 34.1C414.285 34.1 410.519 35.6333 407.719 38.7C404.919 41.7 403.519 46.0667 403.519 51.8V82H394.419V27.2H403.519V35.1C405.319 32.2333 407.719 30.0333 410.719 28.5C413.785 26.9667 417.152 26.2 420.819 26.2C425.419 26.2 429.485 27.2333 433.019 29.3C436.552 31.3667 439.185 34.4 440.919 38.4C442.452 34.5333 444.985 31.5333 448.519 29.4C452.052 27.2667 455.985 26.2 460.319 26.2Z"
+				fill="white" />
+			<path
+				d="M494.046 54.4C494.046 48.8 495.179 43.9 497.446 39.7C499.713 35.4333 502.813 32.1333 506.746 29.8C510.746 27.4667 515.179 26.3 520.046 26.3C524.846 26.3 529.013 27.3333 532.546 29.4C536.079 31.4667 538.713 34.0667 540.446 37.2V27.2H549.646V82H540.446V71.8C538.646 75 535.946 77.6667 532.346 79.8C528.813 81.8667 524.679 82.9 519.946 82.9C515.079 82.9 510.679 81.7 506.746 79.3C502.813 76.9 499.713 73.5333 497.446 69.2C495.179 64.8667 494.046 59.9333 494.046 54.4ZM540.446 54.5C540.446 50.3667 539.613 46.7667 537.946 43.7C536.279 40.6333 534.013 38.3 531.146 36.7C528.346 35.0333 525.246 34.2 521.846 34.2C518.446 34.2 515.346 35 512.546 36.6C509.746 38.2 507.513 40.5333 505.846 43.6C504.179 46.6667 503.346 50.2667 503.346 54.4C503.346 58.6 504.179 62.2667 505.846 65.4C507.513 68.4667 509.746 70.8333 512.546 72.5C515.346 74.1 518.446 74.9 521.846 74.9C525.246 74.9 528.346 74.1 531.146 72.5C534.013 70.8333 536.279 68.4667 537.946 65.4C539.613 62.2667 540.446 58.6333 540.446 54.5Z"
+				fill="white" />
+			<path
+				d="M576.124 34.7V67C576.124 69.6667 576.691 71.5667 577.824 72.7C578.958 73.7667 580.924 74.3 583.724 74.3H590.424V82H582.224C577.158 82 573.358 80.8333 570.824 78.5C568.291 76.1667 567.024 72.3333 567.024 67V34.7H559.924V27.2H567.024V13.4H576.124V27.2H590.424V34.7H576.124Z"
+				fill="white" />
+			<path
+				d="M606.15 18.3C604.417 18.3 602.95 17.7 601.75 16.5C600.55 15.3 599.95 13.8333 599.95 12.1C599.95 10.3667 600.55 8.89999 601.75 7.69999C602.95 6.49999 604.417 5.89999 606.15 5.89999C607.817 5.89999 609.217 6.49999 610.35 7.69999C611.55 8.89999 612.15 10.3667 612.15 12.1C612.15 13.8333 611.55 15.3 610.35 16.5C609.217 17.7 607.817 18.3 606.15 18.3ZM610.55 27.2V82H601.45V27.2H610.55Z"
+				fill="white" />
+			<path
+				d="M649.959 82.9C644.826 82.9 640.159 81.7333 635.959 79.4C631.826 77.0667 628.559 73.7667 626.159 69.5C623.826 65.1667 622.659 60.1667 622.659 54.5C622.659 48.9 623.859 43.9667 626.259 39.7C628.726 35.3667 632.059 32.0667 636.259 29.8C640.459 27.4667 645.159 26.3 650.359 26.3C655.559 26.3 660.259 27.4667 664.459 29.8C668.659 32.0667 671.959 35.3333 674.359 39.6C676.826 43.8667 678.059 48.8333 678.059 54.5C678.059 60.1667 676.793 65.1667 674.259 69.5C671.793 73.7667 668.426 77.0667 664.159 79.4C659.893 81.7333 655.159 82.9 649.959 82.9ZM649.959 74.9C653.226 74.9 656.293 74.1333 659.159 72.6C662.026 71.0667 664.326 68.7667 666.059 65.7C667.859 62.6333 668.759 58.9 668.759 54.5C668.759 50.1 667.893 46.3667 666.159 43.3C664.426 40.2333 662.159 37.9667 659.359 36.5C656.559 34.9667 653.526 34.2 650.259 34.2C646.926 34.2 643.859 34.9667 641.059 36.5C638.326 37.9667 636.126 40.2333 634.459 43.3C632.793 46.3667 631.959 50.1 631.959 54.5C631.959 58.9667 632.759 62.7333 634.359 65.8C636.026 68.8667 638.226 71.1667 640.959 72.7C643.693 74.1667 646.693 74.9 649.959 74.9Z"
+				fill="white" />
+			<path
+				d="M716.724 26.2C723.391 26.2 728.791 28.2333 732.924 32.3C737.058 36.3 739.124 42.1 739.124 49.7V82H730.124V51C730.124 45.5333 728.758 41.3667 726.024 38.5C723.291 35.5667 719.558 34.1 714.824 34.1C710.024 34.1 706.191 35.6 703.324 38.6C700.524 41.6 699.124 45.9667 699.124 51.7V82H690.024V27.2H699.124V35C700.924 32.2 703.358 30.0333 706.424 28.5C709.558 26.9667 712.991 26.2 716.724 26.2Z"
+				fill="white" />
+			<path
+				d="M29.8 82.7C25.2 82.7 21.0667 81.9 17.4 80.3C13.8 78.6333 10.9667 76.3667 8.90001 73.5C6.83335 70.5667 5.76668 67.2 5.70001 63.4H15.4C15.7333 66.6667 17.0667 69.4333 19.4 71.7C21.8 73.9 25.2667 75 29.8 75C34.1333 75 37.5333 73.9333 40 71.8C42.5333 69.6 43.8 66.8 43.8 63.4C43.8 60.7333 43.0667 58.5667 41.6 56.9C40.1333 55.2333 38.3 53.9667 36.1 53.1C33.9 52.2333 30.9333 51.3 27.2 50.3C22.6 49.1 18.9 47.9 16.1 46.7C13.3667 45.5 11 43.6333 9.00001 41.1C7.06668 38.5 6.10001 35.0333 6.10001 30.7C6.10001 26.9 7.06668 23.5333 9.00001 20.6C10.9333 17.6667 13.6333 15.4 17.1 13.8C20.6333 12.2 24.6667 11.4 29.2 11.4C35.7333 11.4 41.0667 13.0333 45.2 16.3C49.4 19.5667 51.7667 23.9 52.3 29.3H42.3C41.9667 26.6333 40.5667 24.3 38.1 22.3C35.6333 20.2333 32.3667 19.2 28.3 19.2C24.5 19.2 21.4 20.2 19 22.2C16.6 24.1333 15.4 26.8667 15.4 30.4C15.4 32.9333 16.1 35 17.5 36.6C18.9667 38.2 20.7333 39.4333 22.8 40.3C24.9333 41.1 27.9 42.0333 31.7 43.1C36.3 44.3667 40 45.6333 42.8 46.9C45.6 48.1 48 50 50 52.6C52 55.1333 53 58.6 53 63C53 66.4 52.1 69.6 50.3 72.6C48.5 75.6 45.8333 78.0333 42.3 79.9C38.7667 81.7667 34.6 82.7 29.8 82.7Z"
+				stroke="black" stroke-width="10" mask="url(#path-1-outside-1)" />
+			<path d="M123.991 12.3L97.6914 82H87.1914L60.8914 12.3H70.5914L92.4914 72.4L114.391 12.3H123.991Z"
+				stroke="black" stroke-width="10" mask="url(#path-1-outside-1)" />
+			<path
+				d="M186.77 32.5C184.836 28.4333 182.036 25.3 178.37 23.1C174.703 20.8333 170.436 19.7 165.57 19.7C160.703 19.7 156.303 20.8333 152.37 23.1C148.503 25.3 145.436 28.5 143.17 32.7C140.97 36.8333 139.87 41.6333 139.87 47.1C139.87 52.5667 140.97 57.3667 143.17 61.5C145.436 65.6333 148.503 68.8333 152.37 71.1C156.303 73.3 160.703 74.4 165.57 74.4C172.37 74.4 177.97 72.3667 182.37 68.3C186.77 64.2333 189.336 58.7333 190.07 51.8H162.27V44.4H199.77V51.4C199.236 57.1333 197.436 62.4 194.37 67.2C191.303 71.9333 187.27 75.7 182.27 78.5C177.27 81.2333 171.703 82.6 165.57 82.6C159.103 82.6 153.203 81.1 147.87 78.1C142.536 75.0333 138.303 70.8 135.17 65.4C132.103 60 130.57 53.9 130.57 47.1C130.57 40.3 132.103 34.2 135.17 28.8C138.303 23.3333 142.536 19.1 147.87 16.1C153.203 13.0333 159.103 11.5 165.57 11.5C172.97 11.5 179.503 13.3333 185.17 17C190.903 20.6667 195.07 25.8333 197.67 32.5H186.77Z"
+				stroke="black" stroke-width="10" mask="url(#path-1-outside-1)" />
+			<path
+				d="M279.662 66.5H249.262L243.662 82H234.062L259.262 12.7H269.762L294.862 82H285.262L279.662 66.5ZM277.062 59.1L264.462 23.9L251.862 59.1H277.062Z"
+				stroke="black" stroke-width="10" mask="url(#path-1-outside-1)" />
+			<path
+				d="M332.545 26.2C339.211 26.2 344.611 28.2333 348.745 32.3C352.878 36.3 354.945 42.1 354.945 49.7V82H345.945V51C345.945 45.5333 344.578 41.3667 341.845 38.5C339.111 35.5667 335.378 34.1 330.645 34.1C325.845 34.1 322.011 35.6 319.145 38.6C316.345 41.6 314.945 45.9667 314.945 51.7V82H305.845V27.2H314.945V35C316.745 32.2 319.178 30.0333 322.245 28.5C325.378 26.9667 328.811 26.2 332.545 26.2Z"
+				stroke="black" stroke-width="10" mask="url(#path-1-outside-1)" />
+			<path
+				d="M374.509 18.3C372.776 18.3 371.309 17.7 370.109 16.5C368.909 15.3 368.309 13.8333 368.309 12.1C368.309 10.3667 368.909 8.89999 370.109 7.69999C371.309 6.49999 372.776 5.89999 374.509 5.89999C376.176 5.89999 377.576 6.49999 378.709 7.69999C379.909 8.89999 380.509 10.3667 380.509 12.1C380.509 13.8333 379.909 15.3 378.709 16.5C377.576 17.7 376.176 18.3 374.509 18.3ZM378.909 27.2V82H369.809V27.2H378.909Z"
+				stroke="black" stroke-width="10" mask="url(#path-1-outside-1)" />
+			<path
+				d="M460.319 26.2C464.585 26.2 468.385 27.1 471.719 28.9C475.052 30.6333 477.685 33.2667 479.619 36.8C481.552 40.3333 482.519 44.6333 482.519 49.7V82H473.519V51C473.519 45.5333 472.152 41.3667 469.419 38.5C466.752 35.5667 463.119 34.1 458.519 34.1C453.785 34.1 450.019 35.6333 447.219 38.7C444.419 41.7 443.019 46.0667 443.019 51.8V82H434.019V51C434.019 45.5333 432.652 41.3667 429.919 38.5C427.252 35.5667 423.619 34.1 419.019 34.1C414.285 34.1 410.519 35.6333 407.719 38.7C404.919 41.7 403.519 46.0667 403.519 51.8V82H394.419V27.2H403.519V35.1C405.319 32.2333 407.719 30.0333 410.719 28.5C413.785 26.9667 417.152 26.2 420.819 26.2C425.419 26.2 429.485 27.2333 433.019 29.3C436.552 31.3667 439.185 34.4 440.919 38.4C442.452 34.5333 444.985 31.5333 448.519 29.4C452.052 27.2667 455.985 26.2 460.319 26.2Z"
+				stroke="black" stroke-width="10" mask="url(#path-1-outside-1)" />
+			<path
+				d="M494.046 54.4C494.046 48.8 495.179 43.9 497.446 39.7C499.713 35.4333 502.813 32.1333 506.746 29.8C510.746 27.4667 515.179 26.3 520.046 26.3C524.846 26.3 529.013 27.3333 532.546 29.4C536.079 31.4667 538.713 34.0667 540.446 37.2V27.2H549.646V82H540.446V71.8C538.646 75 535.946 77.6667 532.346 79.8C528.813 81.8667 524.679 82.9 519.946 82.9C515.079 82.9 510.679 81.7 506.746 79.3C502.813 76.9 499.713 73.5333 497.446 69.2C495.179 64.8667 494.046 59.9333 494.046 54.4ZM540.446 54.5C540.446 50.3667 539.613 46.7667 537.946 43.7C536.279 40.6333 534.013 38.3 531.146 36.7C528.346 35.0333 525.246 34.2 521.846 34.2C518.446 34.2 515.346 35 512.546 36.6C509.746 38.2 507.513 40.5333 505.846 43.6C504.179 46.6667 503.346 50.2667 503.346 54.4C503.346 58.6 504.179 62.2667 505.846 65.4C507.513 68.4667 509.746 70.8333 512.546 72.5C515.346 74.1 518.446 74.9 521.846 74.9C525.246 74.9 528.346 74.1 531.146 72.5C534.013 70.8333 536.279 68.4667 537.946 65.4C539.613 62.2667 540.446 58.6333 540.446 54.5Z"
+				stroke="black" stroke-width="10" mask="url(#path-1-outside-1)" />
+			<path
+				d="M576.124 34.7V67C576.124 69.6667 576.691 71.5667 577.824 72.7C578.958 73.7667 580.924 74.3 583.724 74.3H590.424V82H582.224C577.158 82 573.358 80.8333 570.824 78.5C568.291 76.1667 567.024 72.3333 567.024 67V34.7H559.924V27.2H567.024V13.4H576.124V27.2H590.424V34.7H576.124Z"
+				stroke="black" stroke-width="10" mask="url(#path-1-outside-1)" />
+			<path
+				d="M606.15 18.3C604.417 18.3 602.95 17.7 601.75 16.5C600.55 15.3 599.95 13.8333 599.95 12.1C599.95 10.3667 600.55 8.89999 601.75 7.69999C602.95 6.49999 604.417 5.89999 606.15 5.89999C607.817 5.89999 609.217 6.49999 610.35 7.69999C611.55 8.89999 612.15 10.3667 612.15 12.1C612.15 13.8333 611.55 15.3 610.35 16.5C609.217 17.7 607.817 18.3 606.15 18.3ZM610.55 27.2V82H601.45V27.2H610.55Z"
+				stroke="black" stroke-width="10" mask="url(#path-1-outside-1)" />
+			<path
+				d="M649.959 82.9C644.826 82.9 640.159 81.7333 635.959 79.4C631.826 77.0667 628.559 73.7667 626.159 69.5C623.826 65.1667 622.659 60.1667 622.659 54.5C622.659 48.9 623.859 43.9667 626.259 39.7C628.726 35.3667 632.059 32.0667 636.259 29.8C640.459 27.4667 645.159 26.3 650.359 26.3C655.559 26.3 660.259 27.4667 664.459 29.8C668.659 32.0667 671.959 35.3333 674.359 39.6C676.826 43.8667 678.059 48.8333 678.059 54.5C678.059 60.1667 676.793 65.1667 674.259 69.5C671.793 73.7667 668.426 77.0667 664.159 79.4C659.893 81.7333 655.159 82.9 649.959 82.9ZM649.959 74.9C653.226 74.9 656.293 74.1333 659.159 72.6C662.026 71.0667 664.326 68.7667 666.059 65.7C667.859 62.6333 668.759 58.9 668.759 54.5C668.759 50.1 667.893 46.3667 666.159 43.3C664.426 40.2333 662.159 37.9667 659.359 36.5C656.559 34.9667 653.526 34.2 650.259 34.2C646.926 34.2 643.859 34.9667 641.059 36.5C638.326 37.9667 636.126 40.2333 634.459 43.3C632.793 46.3667 631.959 50.1 631.959 54.5C631.959 58.9667 632.759 62.7333 634.359 65.8C636.026 68.8667 638.226 71.1667 640.959 72.7C643.693 74.1667 646.693 74.9 649.959 74.9Z"
+				stroke="black" stroke-width="10" mask="url(#path-1-outside-1)" />
+			<path
+				d="M716.724 26.2C723.391 26.2 728.791 28.2333 732.924 32.3C737.058 36.3 739.124 42.1 739.124 49.7V82H730.124V51C730.124 45.5333 728.758 41.3667 726.024 38.5C723.291 35.5667 719.558 34.1 714.824 34.1C710.024 34.1 706.191 35.6 703.324 38.6C700.524 41.6 699.124 45.9667 699.124 51.7V82H690.024V27.2H699.124V35C700.924 32.2 703.358 30.0333 706.424 28.5C709.558 26.9667 712.991 26.2 716.724 26.2Z"
+				stroke="black" stroke-width="10" mask="url(#path-1-outside-1)" />
+		</svg>
+	</div>
+	<div id="water">
+		<h2>Water</h2>
+		<h2>Water</h2>
+	</div>
+	<div id="gradient">
+		<h2 class="gradient_text">
+			<span>S</span><span>o</span>
+			<span>C</span><span>o</span><span>o</span><span>l</span><span>!</span>
+		</h2>
+		<h2 class="gradient_text">So Cool!</h2>
+	</div>
+	<div id="flip">
+		<h2 id="static">I am </h2>
+		<h2 id="red" class="moving">Aryan</h2>
+		<h2 id="green" class="moving">Brilliant</h2>
+		<h2 id="blue" class="moving">Super Brilliant</h2>
+	</div>
+	<h2>Social Media Popups</h2>
+	<div id="main_popup_div">
+		<div class="popup_div" id="fb_popup">
+			<div class="popup">
+				<i class="fab fa-facebook-f fa-2x"></i>
+			</div>
+			<div class="popup"></div>
+			<div class="popup"></div>
+			<div class="popup"></div>
+			<div class="popup"></div>
+		</div>
+		<div class="popup_div" id="insta_popup">
+			<div class="popup">
+				<i class="fab fa-instagram fa-2x"></i>
+			</div>
+			<div class="popup"></div>
+			<div class="popup"></div>
+			<div class="popup"></div>
+			<div class="popup"></div>
+		</div>
+		<div class="popup_div" id="youtube_popup">
+			<div class="popup">
+				<i class="fab fa-youtube fa-2x"></i>
+			</div>
+			<div class="popup"></div>
+			<div class="popup"></div>
+			<div class="popup"></div>
+			<div class="popup"></div>
+		</div>
+		<div class="popup_div" id="twitter_popup">
+			<div class="popup">
+				<i class="fab fa-twitter fa-2x"></i>
+			</div>
+			<div class="popup"></div>
+			<div class="popup"></div>
+			<div class="popup"></div>
+			<div class="popup"></div>
+		</div>
+		<div class="popup_div" id="github_popup">
+			<div class="popup">
+				<i class="fab fa-github fa-2x"></i>
+			</div>
+			<div class="popup"></div>
+			<div class="popup"></div>
+			<div class="popup"></div>
+			<div class="popup"></div>
+		</div>
+	</div>
+	<h2> Glass Lift Up Cards</h2>
+	<div id="lift_up_cards">
+		<div class="lift_up">
+			<div class="content">
+				<img src="headphones.png" alt="">
+				<h3>Wireless Headphones</h3>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, eligendi?</p>
+				<button>Buy Now</button>
+			</div>
+		</div>
+		<div class="lift_up">
+			<div class="content">
+				<img src="headphones.png" alt="">
+				<h3>Wireless Headphones</h3>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, eligendi?</p>
+				<button>Buy Now</button>
+			</div>
+		</div>
+		<div class="lift_up">
+			<div class="content">
+				<img src="headphones.png" alt="">
+				<h3>Wireless Headphones</h3>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, eligendi?</p>
+				<button>Buy Now</button>
+			</div>
+		</div>
+	</div>
+	<h2>Social Media Icons</h2>
+	<div id="social_icons">
+		<div class="icon_group" id="fb_icons">
+			<hr>
+			<i class="fab fa-facebook-f fa-3x"></i>
+		</div>
+		<div class="icon_group" id="insta_icons">
+			<hr>
+			<i class="fab fa-instagram fa-3x"></i>
+		</div>
+		<div class="icon_group" id="yt_icons">
+			<hr>
+			<i class="fab fa-youtube fa-3x"></i>
+		</div>
+		<div class="icon_group" id="twitter_icons">
+			<hr>
+			<i class="fab fa-twitter fa-3x"></i>
+		</div>
+		<div class="icon_group" id="github_icons">
+			<hr>
+			<i class="fab fa-github fa-3x"></i>
+		</div>
+	</div>
+	<h2>Social Media 3D Icons</h2>
+	<div id="social3d">
+		<div class="social_3d_icon" id="facebook_3d">
+			<i class="fab fa-facebook-f fa-2x"></i>
+		</div>
+		<div class="social_3d_icon" id="insta_3d">
+			<i class="fab fa-instagram fa-2x"></i>
+		</div>
+		<div class="social_3d_icon" id="youtube_3d">
+			<i class="fab fa-youtube fa-2x"></i>
+		</div>
+		<div class="social_3d_icon" id="twitter_3d">
+			<i class="fab fa-twitter fa-2x"></i>
+		</div>
+		<div class="social_3d_icon" id="github_3d">
+			<i class="fab fa-github fa-2x"></i>
+		</div>
+	</div>
+	<h2>Image Cards</h2>
+	<div id="img_cards">
+		<div class="img_single_card">
+			<div class="flap">
+				<div class="overlay"></div>
+				<h3>Location</h3>
+			</div>
+			<div class="img_content_card" id="mumbai">
+				<h3>Mumbai</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, et.</p>
+				<div class="glass_icons">
+					<i class="fab fa-facebook-f fa-lg"></i>
+					<i class="fab fa-instagram fa-lg"></i>
+					<i class="fab fa-twitter fa-lg"></i>
+				</div>
+			</div>
+		</div>
+		<div class="img_single_card">
+			<div class="flap">
+				<div class="overlay"></div>
+				<h3>Location</h3>
+			</div>
+			<div class="img_content_card" id="new_york">
+				<h3>New York</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, et.</p>
+				<div class="glass_icons">
+					<i class="fab fa-facebook-f fa-lg"></i>
+					<i class="fab fa-instagram fa-lg"></i>
+					<i class="fab fa-twitter fa-lg"></i>
+				</div>
+			</div>
+		</div>
+		<div class="img_single_card">
+			<div class="flap">
+				<div class="overlay"></div>
+				<h3>Location</h3>
+			</div>
+			<div class="img_content_card" id="london">
+				<h3>London</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, et.</p>
+				<div class="glass_icons">
+					<i class="fab fa-facebook-f fa-lg"></i>
+					<i class="fab fa-instagram fa-lg"></i>
+					<i class="fab fa-twitter fa-lg"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+	<h2>Loaders</h2>
+	<div id="loader_div">
+		<div id="orbit_div">
+			<div class="orbit" id="orbit1"><span></span></div>
+			<div class="orbit" id="orbit2"><span></span></div>
+			<div class="orbit" id="orbit3"><span></span></div>
+			<div id="main_circle"></div>
+		</div>
+		<div id="rainbow_div">
+			<div class="rainbow_bar" id="red_bar"></div>
+			<div class="rainbow_bar" id="orange_bar"></div>
+			<div class="rainbow_bar" id="yellow_bar"></div>
+			<div class="rainbow_bar" id="green_bar"></div>
+			<div class="rainbow_bar" id="blue_bar"></div>
+			<div class="rainbow_bar" id="indigo_bar"></div>
+			<div class="rainbow_bar" id="violet_bar"></div>
+		</div>
+		<div id="love_loader">
+			<div class="love_loader_bar" id="love_bar1"></div>
+			<div class="love_loader_bar" id="love_bar2"></div>
+			<div class="love_loader_bar" id="love_bar3"></div>
+			<div class="love_loader_bar" id="love_bar4"></div>
+			<div class="love_loader_bar" id="love_bar5"></div>
+			<div class="love_loader_bar" id="love_bar6"></div>
+			<div class="love_loader_bar" id="love_bar7"></div>
+			<div class="love_loader_bar" id="love_bar8"></div>
+			<div class="love_loader_bar" id="love_bar9"></div>
+			<div class="love_loader_bar" id="love_bar10"></div>
+			<div class="love_loader_bar" id="love_bar11"></div>
+		</div>
+		<div id="rocket_div">
+			<div id="circles">
+				<div class="circle" style="--i:2;background-color:red;z-index:5"></div>
+				<div class="circle" style="--i:3;background-color:orangered;z-index:4;"></div>
+				<div class="circle" style="--i:4;background-color:#ff8800;z-index:3;"></div>
+				<div class="circle" style="--i:4.75;background-color:#ffcc00;z-index:2"></div>
+				<div class="circle" style="--i:5.25;z-index:1"></div>
+			</div>
+			<img src="rocket.png">
+			<div class="rocket_img_after"></div>
+		</div>
+		<div id="rocket_div2">
+			<img src="rocket.png">
+			<div class="rocket_img_after"></div>
+			<div class="pulse">
+				<span style="--i:1"></span>
+				<span style="--i:2"></span>
+				<span style="--i:3"></span>
+				<span style="--i:4"></span>
+				<span style="--i:5"></span>
+			</div>
+		</div>
+		<div id="responsive_loader_outer">
+			<div id="responsive_loader">
+				<div id="screen"></div>
+				<div id="responsive_loader_completer"></div>
+				<div id="responsive_loader_circle"></div>
+			</div>
+		</div>
+		<div id="bird">
+			<div id="bird_face_top">
+				<div id="bird_eye"></div>
+			</div>
+			<div id="bird_face_bottom"></div>
+			<div id="bird_beak_top"></div>
+			<div id="bird_beak_bottom"></div>
+		</div>
+		<div class="flying">
+			<div id="worm_text">
+				<span>The</span>
+				<span>Worms</span>
+				<span>Club's</span>
+				<span>Journey</span>
+				<div id="book">
+					<span>Reading with Bookworms</span>
+					<img src="Worms/bookworms.png" alt="">
+				</div>
+				<div id="code">
+					<span>Coding with Codeworms</span>
+					<img src="Worms/codeworms.png" alt="">
+				</div>
+				<div id="read">
+					<span>Creative Writing with Wordworms</span>
+					<img src="Worms/wordworms.png" alt="">
+				</div>
+			</div>
+			<div class="superhero">
+				<img src="superhero.png" alt="">
+				<div class="jetpack"></div>
+				<div class="jetpack"></div>
+				<div class="jetpack"></div>
+				<div class="jetpack"></div>
+			</div>
+			<div class="flying_line flying_line1"></div>
+			<div class="flying_line flying_line2"></div>
+			<div class="flying_line flying_line3"></div>
+			<div class="flying_line flying_line4"></div>
+		</div>
+		<div class="flying">
+			<div class="superhero">
+				<img src="superhero.png" alt="">
+				<div class="jetpack"></div>
+				<div class="jetpack"></div>
+				<div class="jetpack"></div>
+				<div class="jetpack"></div>
+			</div>
+			<div class="flying_line flying_line1"></div>
+			<div class="flying_line flying_line2"></div>
+			<div class="flying_line flying_line3"></div>
+			<div class="flying_line flying_line4"></div>
+		</div>
+		<div id="stairs">
+			<div class="ball"></div>
+			<div class="stair"></div>
+			<div class="stair"></div>
+			<div class="stair"></div>
+			<div class="stair"></div>
+			<div class="stair"></div>
+		</div>
+	</div>
+	<h2>Assorted Cards</h2>
+	<div id="assorted_cards">
+		<div id="pepsi_outer">
+			<div id="pepsi_expand">
+				<div>
+					<h3>Har Ghoont Mein Swag Hai</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatem illo alias architecto
+						repellat ipsa rerum dicta fugit dolores ratione?</p>
+					<button>Buy Now</button>
+				</div>
+				<img src="pepsi.png">
+			</div>
+		</div>
+		<div id="headphones_card">
+			<img src="headphones.png">
+			<div id="black_content">
+				<h4>Product Name</h4>
+				<span>AT Wireless v2</span>
+				<h4>Release Date</h4>
+				<span>16 January, 2021</span>
+				<div class="price">
+					<span><i class="fas fa-rupee-sign"></i>2999</span>
+					<button>Order<i class="fas fa-arrow-right"></i></button>
+				</div>
+			</div>
+		</div>
+		<div id="shoes">
+			<div>
+				<div id="shoes_background"></div>
+				<img src="addidas.png" alt="">
+			</div>
+			<div id="shoes_content">
+				<h4>Addidas</h4>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed quibusdam aspernatur, tempore ab reiciendis autem! </p>		
+			</div>
+			<div id="shoe_size">
+				<button class="shoe_size">XS</button>
+				<button class="shoe_size active">SM</button>
+				<button class="shoe_size">MD</button>
+				<button class="shoe_size">LG</button>
+			</div>		
+			<button>Purchase</button>
+		</div>
+	</div>
+	<!--Footer-->
+	<footer>
+		<span>&copy;Codeworms</span>
+	</footer>
+	<script src="https://kit.fontawesome.com/be8cb6d164.js" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
